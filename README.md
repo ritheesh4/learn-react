@@ -19,3 +19,4 @@ React key concetps
 
  React Basics
  
+ - What happens if we enter react eject :Eject. Ejecting will give us complete control over the config files as well as dependencies like Webpack/Babel/ESLint. Ejecting actually forks the Create React app config and moves that into our app. After running the eject command, we can see a 'config' folder created in our project which has files like webpack.
