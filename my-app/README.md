@@ -69,3 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 - Functional components do not have state and life cycle methods.
 - Unlike class components, functional components get props and they return some html
+
+- How does react update the dom.
+  - React has a virtual dom. It is exactly a copy of the actual dom. Once a change occured, it again create a virtual dom and compares with the previous virtual dom and it gets understand which item or element is changed. Them it will update that particular change on the actual dom. That is why react is so fast to update.
